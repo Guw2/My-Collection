@@ -1,0 +1,316 @@
+[33mtag v1.0[m
+Tagger: Guw2 <gustafar79@gmail.com>
+Date:   Wed Jun 5 12:50:39 2024 -0300
+
+First version of MyList.
+
+[33mcommit 677b5e3341af8815f7aa804ce4694700adf0166e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;33mtag: [m[1;33mv1.0[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Guw2 <gustafar79@gmail.com>
+Date:   Mon Jun 3 21:52:42 2024 -0300
+
+    MyList coisada
+
+[1mdiff --git a/.classpath b/.classpath[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d803560[m
+[1m--- /dev/null[m
+[1m+++ b/.classpath[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<classpath>[m
+[32m+[m	[32m<classpathentry kind="src" path="src"/>[m
+[32m+[m	[32m<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-21.0.3"/>[m
+[32m+[m	[32m<classpathentry kind="output" path="bin"/>[m
+[32m+[m[32m</classpath>[m
+[1mdiff --git a/.metadata/.lock b/.metadata/.lock[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/.metadata/.log b/.metadata/.log[m
+[1mnew file mode 100644[m
+[1mindex 0000000..11016e3[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.log[m
+[36m@@ -0,0 +1,20 @@[m
+[32m+[m[32m!SESSION 2024-05-21 10:40:28.221 -----------------------------------------------[m
+[32m+[m[32meclipse.buildId=4.31.0.20240307-1200[m
+[32m+[m[32mjava.version=22.0.1[m
+[32m+[m[32mjava.vendor=Oracle Corporation[m
+[32m+[m[32mBootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB[m
+[32m+[m[32mFramework arguments:  -product org.eclipse.epp.package.java.product[m
+[32m+[m[32mCommand-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product[m
+[32m+[m
+[32m+[m[32m!ENTRY ch.qos.logback.classic 1 0 2024-05-21 10:40:32.115[m
+[32m+[m[32m!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.[m
+[32m+[m
+[32m+[m[32m!ENTRY ch.qos.logback.classic 1 0 2024-05-21 10:40:56.164[m
+[32m+[m[32m!MESSAGE Logback config file: E:\Outro\LinkedList and ArrayList\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml[m
+[32m+[m
+[32m+[m[32m!ENTRY org.eclipse.egit.ui 2 0 2024-05-21 10:41:04.908[m
+[32m+[m[32m!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git[m
+[32m+[m[32muser global configuration and to define the default location to store repositories: 'C:\Users\GUWS'. If this is[m
+[32m+[m[32mnot correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and[m
+[32m+[m[32mEGit might behave differently since they see different configuration options.[m
+[32m+[m[32mThis warning can be switched off on the Team > Git > Confirmations and Warnings preference page.[m
+[1mdiff --git a/.metadata/.mylyn/.taskListIndex/segments_1 b/.metadata/.mylyn/.taskListIndex/segments_1[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dbc896e[m
+Binary files /dev/null and b/.metadata/.mylyn/.taskListIndex/segments_1 differ
+[1mdiff --git a/.metadata/.mylyn/.taskListIndex/write.lock b/.metadata/.mylyn/.taskListIndex/write.lock[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/.metadata/.mylyn/repositories.xml.zip b/.metadata/.mylyn/repositories.xml.zip[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f851643[m
+Binary files /dev/null and b/.metadata/.mylyn/repositories.xml.zip differ
+[1mdiff --git a/.metadata/.mylyn/tasks.xml.zip b/.metadata/.mylyn/tasks.xml.zip[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e509f8b[m
+Binary files /dev/null and b/.metadata/.mylyn/tasks.xml.zip differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location b/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a8400bb[m
+Binary files /dev/null and b/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version b/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version[m
+[1mnew file mode 100644[m
+[1mindex 0000000..25cb955[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m[m
+\ No newline at end of file[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index b/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3fb8a36[m
+Binary files /dev/null and b/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version b/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6b2aaa7[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m[m
+\ No newline at end of file[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree b/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree[m
+[1mnew file mode 100644[m
+[1mindex 0000000..51f074f[m
+Binary files /dev/null and b/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources b/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4d0bd19[m
+Binary files /dev/null and b/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources differ
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..30841eb[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs[m
+[36m@@ -0,0 +1,3 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32mencoding=UTF-8[m
+[32m+[m[32mversion=1[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9dd00d6[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs[m
+[36m@@ -0,0 +1,3 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32morg.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n[m
+[32m+[m[32mpreferredTargets=default\:default|[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5f63d80[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32morg.eclipse.jdt.core.builder.resourceCopyExclusionFilter=[m
+[32m+[m[32morg.eclipse.jdt.core.codeComplete.visibilityCheck=enabled[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.codegen.targetPlatform=21[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.compliance=21[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.problem.assertIdentifier=error[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.problem.enumIdentifier=error[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.release=enabled[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.source=21[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..16b1fff[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32morg.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1716299033416">\r\n    <vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n        <vm id\="1716299033416" name\="jdk-22" path\="C\:\\Program Files\\Java\\jdk-22"/>\r\n        <vm id\="C\:\\Users\\GUWS\\Documents\\Java\\Oracle_JDK-22" name\="Oracle_JDK-22" path\="C\:\\Users\\GUWS\\Documents\\Java\\Oracle_JDK-22"/>\r\n    </vmType>\r\n</vmSettings>\r\n[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..44b8f43[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32mcontent_assist_number_of_computers=15[m
+[32m+[m[32mcontent_assist_proposals_background=255,255,255[m
+[32m+[m[32mcontent_assist_proposals_foreground=0,0,0[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32morg.eclipse.jdt.ui.formatterprofiles.version=23[m
+[32m+[m[32mspelling_locale=en_GB[m
+[32m+[m[32mspelling_locale_initialized=true[m
+[32m+[m[32mtypefilter_migrated_2=true[m
+[32m+[m[32museAnnotationsPrefPage=true[m
+[32m+[m[32museQuickDiffPrefPage=true[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d56c53f[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32morg.eclipse.jsch.core.hasChangedDefaultWin32SshHome=true[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..67b1d96[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32morg.eclipse.m2e.discovery.pref.projects=[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..43e97e4[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32mmylyn.attention.migrated=true[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8d462a6[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32morg.eclipse.mylyn.monitor.activity.tracking.enabled.checked=true[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2b60c21[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs[m
+[36m@@ -0,0 +1,5 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32mmigrated.task.repositories.secure.store=true[m
+[32m+[m[32morg.eclipse.mylyn.tasks.ui.filters.nonmatching=true[m
+[32m+[m[32morg.eclipse.mylyn.tasks.ui.filters.nonmatching.encouraged=true[m
+[32m+[m[32morg.eclipse.mylyn.tasks.ui.welcome.message=true[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f02e816[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32mplatformState=892299817921792[m
+[32m+[m[32mquickStart=false[m
+[32m+[m[32mtipsAndTricks=true[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..08076f2[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32mshowIntro=false[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b85d0db[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false[m
+[32m+[m[32mPLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32morg.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_END=255,255,255[m
+[32m+[m[32morg.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START=255,255,255[m
+[32m+[m[32morg.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_TEXT_COLOR=16,16,16[m
+[32m+[m[32morg.eclipse.ui.workbench.ACTIVE_TAB_BG_END=255,255,255[m
+[32m+[m[32morg.eclipse.ui.workbench.ACTIVE_TAB_BG_START=255,255,255[m
+[32m+[m[32morg.eclipse.ui.workbench.INACTIVE_TAB_BG_START=242,242,242[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..855d634[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32mprocessedSchemes=,eclipse+command,eclipse+mpc[m
+[1mdiff --git a/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi b/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0322782[m
+[1m--- /dev/null[m
+[1m+++ b/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi[m
+[36m@@ -0,0 +1,2431 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="ASCII"?>[m
+[32m+[m[32m<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_wGZtoBd3Ee-Xlu85EnvEjg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_wGZtoRd3Ee-Xlu85EnvEjg" bindingContexts="_wGZtqhd3Ee-Xlu85EnvEjg">[m
+[32m+[m[32m  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.ui.genericeditor.GenericEditor&quot; name=&quot;.project&quot; tooltip=&quot;E:\Outro\LinkedList and ArrayList\.project&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/E:/Outro/LinkedList%20and%20ArrayList/.project&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Main.java&quot; tooltip=&quot;E:\Outro\LinkedList and ArrayList\src\Main.java&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/E:/Outro/LinkedList%20and%20ArrayList/src/Main.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>[m
+[32m+[m[32m  <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>[m
+[32m+[m[32m  <children xsi:type="basic:TrimmedWindow" xmi:id="_wGZtoRd3Ee-Xlu85EnvEjg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_wfzsIhd3Ee-Xlu85EnvEjg" label="%trimmedwindow.label.eclipseSDK" x="130" y="130" width="1024" height="768">[m
+[32m+[m[32m    <persistedState key="coolBarVisible" value="true"/>[m
+[32m+[m[32m    <persistedState key="perspectiveBarVisible" value="true"/>[m
+[32m+[m[32m    <persistedState key="isRestored" value="true"/>[m
+[32m+[m[32m    <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>[m
+[32m+[m[32m    <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1716298861731"/>[m
+[32m+[m[32m    <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>[m
+[32m+[m[32m    <tags>topLevel</tags>[m
+[32m+[m[32m    <tags>shellMaximized</tags>[m
+[32m+[m[32m    <children xsi:type="basic:PartSashContainer" xmi:id="_wfzsIhd3Ee-Xlu85EnvEjg" selectedElement="_wf0TMBd3Ee-Xlu85EnvEjg" horizontal="true">[m
+[32m+[m[32m      <children xsi:type="advanced:PerspectiveStack" xmi:id="_wf0TMBd3Ee-Xlu85EnvEjg" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_wsNwcBd3Ee-Xlu85EnvEjg">[m
+[32m+[m[32m        <children xsi:type="advanced:Perspective" xmi:id="_wsNwcBd3Ee-Xlu85EnvEjg" elementId="org.eclipse.jdt.ui.JavaPerspective" selectedElement="_wsNwcRd3Ee-Xlu85EnvEjg" label="Java" iconURI="platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/eview16/jperspective.png">[m
+[32m+[m[32m          <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.undo,persp.hideToolbarSC:org.eclipse.ui.edit.redo,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:org.eclipse.jdt.ui.actions.OpenProjectWizard,"/>[m
+[32m+[m[32m          <tags>persp.actionSet:org.eclipse.mylyn.tasks.ui.navigation</tags>[m
+[32m+[m[32m          <tags>persp.actionSet:org.eclipse.ui.cheatsheets.actionSet</tags>[m
+[32m+[m[32m          <tags>persp.actionSet:org.eclipse.search.searchActionSet</tags>[m
+[32m+[m[32m          <tags>persp.actionSet:org.eclipse.text.quicksearch.actionSet</tags>[m
+[32m+[m[32m          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.annotationNavigation</tags>[m
+[32m+[m[32m          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.navigation</tags>[m
+[32m+[m[32m          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>[m
+[32m+[m[32m          <tags>persp.actionSet:org.eclipse.ui.externaltools.ExternalToolsSet</tags>[m
+[32m+[m[32m          <tags>persp.actionSet:org.eclipse.ui.actionSet.keyBindings</tags>[m
+[32m+[m[32m          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>[m
+[32m+[m[32m          <tags>persp.actionSet:org.eclipse.debug.ui.launchActionSet</tags>[m
+[32m+[m[32m          <tags>persp.actionSet:org.eclipse.jdt.ui.JavaActionSet</tags>[m
+[32m+[m[32m          <tags>persp.actionSet:org.eclipse.jdt.ui.JavaElementCreationActionSet</tags>[m
+[32m+[m[32m          <tags>persp.actionSet:org.eclipse.ui.NavigateActionSet</tags>[m
+[32m+[m[32m          <tags>persp.viewSC:org.eclipse.jdt.ui.PackageExplorer</tags>[m
+[32m+[m[32m          <tags>persp.viewSC:org.eclipse.jdt.ui.TypeHierarchy</tags>[m
+[32m+[m[32m          <tags>persp.viewSC:org.eclipse.jdt.ui.SourceView</tags>[m
+[32m+[m[32m          <tags>persp.viewSC:org.eclipse.jdt.ui.JavadocView</tags>[m
+[32m+[m[32m          <tags>persp.viewSC:org.eclipse.search.ui.views.SearchView</tags>[m
+[32m+[m[32m          <tags>persp.viewSC:org.eclipse.ui.console.ConsoleView</tags>[m
+[32m+[m[32m          <tags>persp.viewSC:org.eclipse.ui.views.ContentOutline</tags>[m
+[32m+[m[32m          <tags>persp.viewSC:org.eclipse.ui.views.ProblemView</tags>[m
+[32m+[m[32m          <tags>persp.viewSC:org.eclipse.ui.views.TaskList</tags>[m
+[32m+[m[32m          <tags>persp.viewSC:org.eclipse.ui.views.ProgressView</tags>[m
+[32m+[m[32m          <tags>persp.viewSC:org.eclipse.ui.navigator.ProjectExplorer</tags>[m
+[32m+[m[32m          <tags>persp.viewSC:org.eclipse.ui.texteditor.TemplatesView</tags>[m
+[32m+[m[32m          <tags>persp.viewSC:org.eclipse.pde.runtime.LogView</tags>[m
+[32m+[m[32m          <tags>persp.newWizSC:org.eclipse.jdt.ui.wizards.JavaProjectWizard</tags>[m
+[32m+[m[32m          <tags>persp.newWizSC:org.eclipse.jdt.ui.wizards.NewPackageCreationWizard</tags>[m
+[32m+[m[32m          <tags>persp.newWizSC:org.eclipse.jdt.ui.wizards.NewClassCreationWizard</tags>[m
+[32m+[m[32m          <tags>persp.newWizSC:org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard</tags>[m
+[32m+[m[32m          <tags>persp.newWizSC:org.eclipse.jdt.ui.wizards.NewEnumCreationWizard</tags>[m
+[32m+[m[32m          <tags>persp.newWizSC:org.eclipse.jdt.ui.wizards.NewRecordCreationWizard</tags>[m
+[32m+[m[32m          <tags>persp.newWizSC:org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard</tags>[m
+[32m+[m[32m          <tags>persp.newWizSC:org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard</tags>[m
+[32m+[m[32m          <tags>persp.newWizSC:org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard</tags>[m
+[32m+[m[32m          <tags>persp.newWizSC:org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard</tags>[m
+[32m+[m[32m          <tags>persp.newWizSC:org.eclipse.ui.wizards.new.folder</tags>[m
+[32m+[m[32m          <tags>persp.newWizSC:org.eclipse.ui.wizards.new.file</tags>[m
+[32m+[m[32m          <tags>persp.newWizSC:org.eclipse.ui.editors.wizards.UntitledTextFileWizard</tags>[m
+[32m+[m[32m          <tags>persp.perspSC:org.eclipse.jdt.ui.JavaBrowsingPerspective</tags>[m
+[32m+[m[32m          <tags>persp.perspSC:org.eclipse.debug.ui.DebugPerspective</tags>[m
+[32m+[m[32m          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/onboarding_jperspective.png</tags>[m
+[32m+[m[32m          <tags>persp.editorOnboardingText:Open a file or drop files here to open them.</tags>[m
+[32m+[m[32m          <tags>persp.showIn:org.eclipse.jdt.ui.PackageExplorer</tags>[m
+[32m+[m[32m          <tags>persp.showIn:org.eclipse.team.ui.GenericHistoryView</tags>[m
+[32m+[m[32m          <tags>persp.showIn:org.eclipse.ui.navigator.ProjectExplorer</tags>[m
+[32m+[m[32m          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>[m
+[32m+[m[32m          <tags>persp.editorOnboardingCommand:Show Key Assist$$$Ctrl+Shift+L</tags>[m
+[32m+[m[32m          <tags>persp.editorOnboardingCommand:New$$$Ctrl+N</tags>[m
+[32m+[m[32m          <tags>persp.editorOnboardingCommand:Op
